@@ -1,0 +1,100 @@
+@font-face {
+  font-family: moonglade;
+  src: url(MoongladeDemoBold-jOzM.ttf);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h2 {
+    text-align: right;
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 800px;
+    margin: auto;
+    transition: 0.5s ease;
+  margin: 20px auto;
+    border-top: 4px solid rgba(0, 0, 0, 0);
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+}
+
+h2:hover {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+body {
+    background-color: #f7636e;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 800px;
+    margin: 100px auto;
+    padding: 1%;
+    border: 15px solid white;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.grid-item {
+    height: 1rem;
+    width: 1rem;
+    transition: 3s cubic-bezier(1,.06,1,.87);
+}
+
+.grid-item .hello {
+    transition: all 1s ease 45s;
+}
+
+.circle {
+    height: 0.2rem;
+    width: 0.2rem;
+    margin: 0.4rem auto;
+    border-radius: 100%;
+    background-color: rgba(160,103,255, 0);
+    border: 0.4px solid #E8E8E8;
+    transition: all 1s ease 10s
+}
+
+.grid-item:hover .light {
+    background-color: #ffd166;
+    transition: .05s ease-out;
+    height: 0.6rem;
+    width: 0.6rem;
+    margin: 0.2rem auto;
+    border: none;
+}
+.grid-item:hover .medium {
+    background-color: #06d6a0;
+    transition: .05s ease-out;
+    height: 0.6rem;
+    width: 0.6rem;
+    margin: 0.2rem auto;
+    border: none;
+}
+
+.grid-item:hover .dark {
+    background-color: #5899e2;
+    transition: .02s ease-out;
+    height: 0.6rem;
+    width: 0.6rem;
+    margin: 0.2rem auto;
+    border: none;
+}
+
+.grid-item:hover .hello {
+    height: 0.85rem;
+    width: 0.85rem;
+    background-color: #e63946;
+    margin: 0.075rem auto;
+    transition: .02s ease-out;
+    border-radius: 25%;
+    border: none;
+}
