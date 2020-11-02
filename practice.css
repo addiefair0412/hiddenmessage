@@ -50,7 +50,7 @@ body {
 }
 
 .grid-item .hello {
-    transition: all 1s ease 45s;
+    transition: all 1s ease 300s;
 }
 
 .circle {
@@ -60,7 +60,7 @@ body {
     border-radius: 100%;
     background-color: rgba(160,103,255, 0);
     border: 0.4px solid #E8E8E8;
-    transition: all 1s ease 10s
+    transition: all 1s ease 15s
 }
 
 .grid-item:hover .light {
